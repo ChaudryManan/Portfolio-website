@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+    color: white;
+}
+.items li{
+ margin-bottom: 5px;
+}
+
+@media(max-width:768px){
+    .items li{
+        margin-top: 10px;
+margin-bottom: 20px;
+margin-inline-start: 30%;
+
+    }
+    .items{
+       
+        width: 30%;
+      
+    }
+}
+@media (max-width: 388px) {
+    .main  {
+       font-size: 1rem !important;
+    }
+}
